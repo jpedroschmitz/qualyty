@@ -1,0 +1,12 @@
+{
+  "name": "qualyty",
+  "description": "A small testing library created for studying purposes",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --require ./src/global.js ./example/math.test.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
+}
